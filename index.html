@@ -1913,7 +1913,7 @@
         margin-bottom: 10px;
       }
 
-      .penalty-amount {
+      .penalty-tag {
         display: inline-block;
         padding: 5px 15px;
         background: #e53e3e;
@@ -3590,7 +3590,7 @@
       .penalty-amount {
         display: block;
         font-size: 20px;
-        font-weight: 700;
+        font-weight: 700; 
         color: #e53e3e;
         margin-bottom: 5px;
       }
@@ -4585,13 +4585,13 @@
     </div>
 
     <!-- Sidebar Navigation -->
-    <div class="sidebar" id="sidebar">
+    <aside class="sidebar" id="sidebar">
       <div class="sidebar-header">
         <h2 class="sidebar-title">Malaysian FYE Strategic Guide</h2>
         <p class="sidebar-subtitle">Complete Compliance & Tax Reference</p>
       </div>
 
-      <div class="nav-section">
+      <nav class="nav-section" aria-label="Main navigation">
         <a href="#hero" class="nav-item active" onclick="setActive(this)">
           <span class="nav-icon">📊</span>
           <span>Calculator & Overview</span>
@@ -4633,7 +4633,7 @@
         </div>
         <div class="progress-text" id="progressText">10% Complete</div>
       </div>
-    </div>
+    </aside>
 
     <!-- Mobile Menu Toggle -->
     <button class="sidebar-toggle" onclick="toggleSidebar()">
@@ -4652,7 +4652,7 @@
     </button>
 
     <!-- Main Content -->
-    <div class="main-content">
+    <main class="main-content">
       <!-- Section 1: Hero Section with Calculator -->
       <section id="hero" class="hero-section">
         <div class="hero-container">
@@ -5572,7 +5572,7 @@
                         Both the company and <strong>every director</strong> may
                         be liable for:
                       </p>
-                      <span class="penalty-amount">Fine up to RM50,000</span>
+                      <span class="penalty-tag">Fine up to RM50,000</span>
                     </div>
                   </div>
                 </div>
@@ -5586,7 +5586,7 @@
                         Additional fine for each day the default continues after
                         conviction:
                       </p>
-                      <span class="penalty-amount">RM1,000 per day</span>
+                      <span class="penalty-tag">RM1,000 per day</span>
                     </div>
                   </div>
                 </div>
@@ -7210,7 +7210,7 @@
           </div>
         </div>
       </section>
-    </div>
+    </main>
 
     <script>
       // --- UI Interaction Functions (No changes needed here) ---
